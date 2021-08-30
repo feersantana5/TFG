@@ -98,7 +98,7 @@ def main():
     directorio_results = "MiDataCluster/clustersConf/"
     clase_objeto = "silla"
     objeto = "SillaA"
-    n_captura = 3
+    n_captura = 11
     n_frame = 0
 
     parser = argparse.ArgumentParser(usage=__doc__)

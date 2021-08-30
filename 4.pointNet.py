@@ -419,19 +419,18 @@ def main():
 
     # valores por defecto
     num_points = 2048
-    data_dir = "MiDataClusterPrep5"
-    num_classes = 5
-    batch_size = 16
-    epochs = 40
-    results = "/archivos/archivosTensor/MiData5/"
-    pesos = "./archivos/archivosTensor/MiData5/weightsMiData5.h5"
+    data_dir = "MiDataClusterPrep3"
+    num_classes = 3
+    batch_size = 24
+    epochs = 240
+    results = "/archivos/archivosTensor/MiData3/"
+    pesos = "./archivos/archivosTensor/MiData3/weightsMiDataCluster3.h5"
 
 
     # diccionario con id y clase
     # class_map = {0: 'silla', 1: 'monitor'}  # MiData2
-    # class_map = {0: 'silla', 1: 'mesa', 2: 'lampara'}  # MiData3
+    class_map = {0: 'silla', 1: 'mesa', 2: 'lampara'}  # MiData3
     # class_map = {0: 'silla', 1: 'monitor', 2: 'mesa', 3: 'lampara'}  # MiData4
-    class_map = {0: 'silla', 1: 'monitor', 2: 'mesa', 3: 'lampara', 4: 'mesilla'}  # MiData5
     # class_map = {0: 'cama', 1: 'mesilla', 2: 'escritorio', 3: 'silla', 4: 'tocador', 5: 'mesa', 6: 'retrete', 7: 'sofa', 8: 'monitor', 9: 'banera'}  # ModelNet
 
     dir_path = os.path.dirname(os.path.realpath(__file__))

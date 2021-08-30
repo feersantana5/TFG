@@ -240,7 +240,7 @@ def main():
     directorio = "MiDataClusterPrep3"
     clase_objeto = "silla"
     objeto = "SillaA"
-    n_captura = 3
+    n_captura = 11
     n_frame = 0
     pesos = "./archivos/archivosTensor/weightsMiData3.h5"
 
