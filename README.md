@@ -1,10 +1,23 @@
-# 3D Point Cloud Segmentation, Detection &amp; Classification by PointNet in a Low Cost System
+# 3D Point Cloud Segmentation, Detection &amp; Classification by PointNet in a Low-Cost System
 
 ![alt text](http://stanford.edu/~rqi/pointnet/images/teaser.jpg)
 
 ## System  
 
 <img width="872" alt="image" src="https://user-images.githubusercontent.com/61494475/131353752-4b430586-bf7e-4a00-804b-b901f9a88ba0.png">
+
+5 scripts:
+* 1.retrieveMiData.py
+* 2.retrieveMiDataCluster.py
+* 3.miDataClusterSegmentation.py
+* 4.pointNet.py
+* 5.segmentationClassification.py
+
+3 datasets:
+* MiData
+* MiDataCluster
+* ModelNet10
+
 
 ## Requirements ‼️
 * Python 3.6
