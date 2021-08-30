@@ -237,7 +237,7 @@ def main():
     num_points = 2048
     num_classes = 3
     batch_size = 24
-    directorio = "MiDataClusterPrep3"
+    directorio = "MiDataCluster"
     clase_objeto = "silla"
     objeto = "SillaA"
     n_captura = 11
